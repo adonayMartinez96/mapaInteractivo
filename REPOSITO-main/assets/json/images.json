@@ -1,0 +1,60 @@
+var images =[
+    {
+        'url'  : 'assets/img/sanSalvadorPng.png',
+        'desc' : 'sanSalvador' 
+    },
+    {
+        'url'  : 'assets/img/sonsonate.png',
+        'desc' : 'sonsonate' 
+    },
+    {
+        'url'  : 'assets/img/santaAna.png',
+        'desc' : 'santaAna' 
+    },
+    {
+        'url'  : 'assets/img/usulutan.png',
+        'desc' : 'usulutan' 
+    },
+    {
+        'url'  : 'assets/img/sanVicente.png',
+        'desc' : 'sanVicente' 
+    },
+    {
+        'url'  : 'assets/img/sanMiguel.png',
+        'desc' : 'sanMiguel' 
+    },
+    {
+        'url'  : 'assets/img/morazan.png',
+        'desc' : 'Morazan' 
+    },
+
+    {
+        'url'  : 'assets/img/union.png',
+        'desc' : 'union' 
+    },
+    {
+        'url'  : 'assets/img/laPaz.png',
+        'desc' : 'laPaz' 
+    },
+    {
+        'url'  : 'assets/img/laLibertad.png',
+        'desc' : 'laLibertad' 
+    },
+    {
+        'url'  : 'assets/img/cuscatlan.png',
+        'desc' : 'cuscatlan' 
+    },
+    {
+        'url'  : 'assets/img/chalatenango.png',
+        'desc' : 'chalatenango' 
+    },
+    {
+        'url'  : 'assets/img/cabañas.png',
+        'desc' : 'cabañas' 
+    },
+    {
+        'url'  : 'assets/img/ahuachapan.png',
+        'desc' : 'ahuachapan' 
+    }
+    
+]

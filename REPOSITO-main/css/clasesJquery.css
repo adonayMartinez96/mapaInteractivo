@@ -1,0 +1,25 @@
+
+.color {
+    background-color: black;
+}
+
+.letra{
+    color: blanchedalmond;
+}
+
+.cambio{
+    color:blanchedalmond;
+}
+
+.nwa{
+	-webkit-transform:rotate(360deg); 
+	transform: rotate(360deg);
+	filter: grayscale(100%);
+	-moz-transform:rotate(360deg);
+	transform: rotate(360deg);
+	filter: grayscale(100%);
+	-o-transform:rotate(360deg);
+	transform: rotate(360deg);
+	filter: grayscale(100%);	
+	transition: 4s;
+}

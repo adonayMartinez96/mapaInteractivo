@@ -1,0 +1,111 @@
+body{
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+
+}
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+
+}
+
+#consultas{
+	z-index: 20%;
+}
+
+h1,label,h3{
+	color: white;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+	top: 20%;
+}
+
+     select{
+		background: white;
+		border: none;
+		font-size: 14px;
+		height: 30px;
+		padding: 5px;
+		width: 250px;
+	 }
+
+	 select:focus{ 
+		 outline: none;
+		}
+
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border:none;
+
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+
+}
+
+#boton
+{
+	background: #4969bb;
+	color: #fff;
+	padding: 20px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+
+#emailOK{
+	color: #fff;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+
+	}
+}
+.mapa{
+	margin-bottom: 100%;
+	margin-top: 25px;
+}
+
+footer{
+	
+	height: 115px; 
+	background-color: rgb(74,149,239);
+
+}
+#pie {
+	font-family: helvetiva;
+	font-size: 9pt;
+	color: white;
+	text-align:  center;
+	padding-top: 15px;
+}
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+
+
+#redes {
+	padding: 15px;
+	margin: 0px auto;
+
+}

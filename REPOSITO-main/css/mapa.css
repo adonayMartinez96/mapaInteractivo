@@ -1,0 +1,71 @@
+/*ESTE ES EL INDEX DE MI MAPA CON EL QUE SE  CARGA MI PAGE*/
+.moviendoMapa{
+    position: relative;
+    
+    z-index: 1000;
+}
+
+
+/*  ESTA ES LA CLASE QUE AGREGAMOS EN NUESTRA FUNCION 
+ANIMAR AL MOMENTO DE HACER CLICK EN NUESTRO ICONO*/
+.agregandaZindex{
+    z-index: 1500;
+}
+
+#mapDiv{
+    
+    margin:  0%    0%     0%     25%;
+           /*top*/             /*left*/   
+
+    padding-top:1em;
+    width: 50%;
+    
+}
+
+
+
+#mapDiv path{
+    fill: rgba(0, 0, 255, 0.938);
+    stroke: cornsilk;
+    stroke-width: 3px;
+}
+
+#mapDiv :hover{
+    fill:red;
+    cursor: pointer;
+} 
+
+
+
+/*PROPIEDADES PARA MI TEXT AREA*/
+textArea{
+    height: 7em;
+}
+ /*caja principal de mi txtArea*/
+#caja{
+    margin-top: 20px;
+    padding: 25px 25px 25px 25px;
+}
+    
+@media(min-width:1024px) {
+    
+    #mapDiv path{
+        /*fill: rgba(255, 255, 255, 0.938);*/
+        stroke: cornsilk;
+        stroke-width: 3px;
+    }
+    
+    #mapDiv :hover{
+        fill:red;
+        cursor: pointer;
+    } 
+
+    textArea{
+        height: 10em;
+    }
+
+    
+}
+
+
+

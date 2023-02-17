@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contactenos</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <script src="libs/angular.min.js"></script>
+</head>
+<body ng-app>
+	<body background="img/fondo.png">
+	   <!--MI MENU-->
+       <div class="fixed">
+        <div class="miMenu">  
+          <!--EN LA LINEA 19 ESTA MI ID DONDE LE AGREGAMOS LA CLASE-->
+          <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i> </span>
+          <nav class="main-nav"  id="miMenu">
+              <ul class="menu" id="menu"  >
+                  <!--ZONA CENTRAL-->
+                  <li class="menu__item container-submenu " id="menu__item">
+                      <a href="#" class="menu__link submenuBtn" >Zona Central <i class="fas fa-caret-down"></i></a>
+                      <ul class="submenus" id="submenus">
+                          <li class="menu__item"><a href="sanSalvador.html" class="menu__link">San Salvador</a></li>
+                          <li class="menu__item"><a href="laLibertad.html" class="menu__link">La Libertad</a></li>
+                          <li class="menu__item"><a href="chalatengo.html" class="menu__link">Chalatenango</a></li>
+                          <li class="menu__item"><a href="cuscatlan.html" class="menu__link">
+                          Cuscatlan</a></li>
+                          <li class="menu__item"><a href="laPaz.html" class="menu__link">La Paz</a></li>
+                          <li class="menu__item"><a href="sanVicente.html" class="menu__link"> San Vicente</a></li>
+                      </ul>
+                  </li>
+                  <!--ZONA OCCIDENTAL-->
+                  <li class="menu__item container-submenu" id="menu__item"> 
+                      <a href="#" class="menu__link submenuBtn" >Zona Ocidental <i class="fas fa-caret-down"></i></a>
+                      <ul class="submenus" id="submenus">
+                          <li class="menu__item"><a href="ahuachapan.html" class="menu__link">Ahuachapán</a></li>
+                          <li class="menu__item"><a href="santaAna.html" class="menu__link">Santa Ana</a></li>
+                          <li class="menu__item"><a href="sonsonate.html" class="menu__link">Sonsonate</a></li>
+  
+                      </ul>
+                  </li>
+                  <!--ZONA ORIENTAL-->
+                  <li class="menu__item container-submenu" id="menu__item">
+                      <a href="#" class="menu__link submenuBtn" >Zona oriental<i class="fas fa-caret-down"></i></a>
+                      <ul class="submenus" id="submenus">
+                          <li class="menu__item"><a href="usulutan.html" class="menu__link">Usulutan</a></li>
+                          <li class="menu__item"><a href="sanMiguel.html" class="menu__link">San Miguel</a></li>
+                          <li class="menu__item"><a href="morazan.html" class="menu__link">Morazan</a></li>
+                          <li class="menu__item"><a href="laUnion.html" class="menu__link">La Union</a></li>
+                      </ul>
+                  </li>
+                  <!--ENLACE A MI FORMULARIO-->
+                  <li class="menu__item"><a href="contactenos.html" class="menu__link">Formulario</a></li>
+              </ul>
+          </nav>
+        </div>  
+      </div>
+    <!--MAPA RESPONSIVE    
+    <div class="container">
+        <p class="text-primary">
+            hola mundo
+        </p>
+    </div>
+-->
+<div class="">
+  <h1>p</h1>
+</div><br>
+	<form role="form" name="forma">
+		<h1>Contactenos</h1>
+		<div class="form-group" ng-class="{'has-error': forma.nombreU.$invalid, 'has-success': forma.nombreU.$valid}">
+            <label for="inputNombre">Nombre</label>
+            <input id="nombres" type="text" class="form-control" placeholder="Nombre" name="nombreU" ng-model="usuario.nombre" required>
+          </div>
+          <div> 
+            <div class="form-group" ng-class="{'has-error': forma.emailU.$invalid, 'has-success': forma.emailU.$valid}">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" placeholder="email" name="emailU" id="correos" ng-model="usuario.email" required><span id="emailOK"></span><br>
+                <div ng-show="forma.emailU.$dirty && forma.emailU.$invalid">
+                  <p class="help-block text-danger" ng-show="forma.emailU.$error.required">Campo obligatorio</p>
+                  <p class="help-block text-danger" ng-show="forma.emailU.$error.email">Email invalido</p>
+                </div>
+              </div>
+		<label>Pais de procedencia:</label><br>
+
+        <select name="pais" id="pais">
+            <option value="Elegir">Elegir opción</option>
+            <option value="Belice">Belice</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Guatemala">Guatemala</option>
+            <option value="Honduras">Honduras</option>
+            <option value="Nicaragua">Nicaragua</option>
+            <option value="Panama">Panama</option>
+            <option value="Otro">Otro</option></select><br>
+            </div>
+          <label>Razon de la consulta:</label><br>
+		<textarea name="" id="consultas" cols="30" rows="10" placeholder="Razon de la consulta"></textarea><br>
+          </div>
+          <button class="btn btn-success" id="boton" ng-disabled="forma.$invalid">Enviar</button>
+
+</form>
+
+<br>
+<script src="js/formulariologic.js"></script>
+<script src="js/contactenos.js"></script>
+<script src="js/menu.js"></script>
+
+
+</body>
+<footer> 
+			<p id="pie"> &copy; copyright 2021 | &copy;Jonathan Rodriguez&copy;| All Rights Reserved</p>
+			<table id="redes">
+				<tr>
+					<td><img src="img/fb.png"></td>
+					<td><img src="img/tw.png"></td>
+					<td><img src="img/yt.png"></td>
+					<td><img src="img/eng.png"></td>
+					<td><img src="img/esp.png"></td>
+				</tr>
+			</table>
+		</footer>
+</html>
